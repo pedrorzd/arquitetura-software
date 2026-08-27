@@ -1,0 +1,20 @@
+tabela:
+itens_pedido:
+id, idLivro, idPedido, nome_livro, qnt_item, preco_unitario, preco_venda
+
+
+4- 
+Vantagens de sistemas monolíticos:
+- Desenvolvimento mais rápido
+- Equipe pode ser pequena
+- Infraestrutura mais simples
+- Comunicação entre módulos do sistema é mais rápida
+
+Desvantagem:
+- Difícil manutenção
+- Escalabilidade complexa
+- Segurança
+- Acoplamento de módulos
+- Necessidade de compreendimento de TODO o projeto.
+
+5- Após identificação de necessidade de escalabilidade do sistema e também quando a aplicação fica madura demais e com muitos módulos.
