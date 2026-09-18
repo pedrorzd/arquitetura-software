@@ -30,7 +30,7 @@ API.get('/usuarios', (req, res) => {
         result = result.slice(0, qtd);
     }
     res.json(result);
-})
+});
 
 //iniciando o servidor
 API.listen(PORT, ()=>{

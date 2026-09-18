@@ -2,63 +2,73 @@
   "usuarios": [
     {
       "id": 1,
-      "nome": "Juan Pérez",
+      "nome": "Lucas Silva",
+      "cidade": "SP",
       "ativo": true,
-      "cidade": "São Paulo"
+      "cargo": "Dev Frontend"
     },
     {
       "id": 2,
-      "nome": "Maria Silva",
+      "nome": "Mariana Costa",
+      "cidade": "RJ",
       "ativo": false,
-      "cidade": "Rio de Janeiro"
+      "cargo": "Designer UI/UX"
     },
     {
       "id": 3,
-      "nome": "Carlos Souza",
+      "nome": "Rodrigo Lima",
+      "cidade": "SP",
       "ativo": true,
-      "cidade": "Belo Horizonte"
+      "cargo": "Dev Backend"
     },
     {
       "id": 4,
-      "nome": "Ana Oliveira",
+      "nome": "Aline Souza",
+      "cidade": "BH",
       "ativo": true,
-      "cidade": "Curitiba"
+      "cargo": "Product Manager"
     },
     {
       "id": 5,
-      "nome": "Pedro Lima",
+      "nome": "Felipe Ramos",
+      "cidade": "SP",
       "ativo": false,
-      "cidade": "Porto Alegre"
+      "cargo": "QA Engineer"
     },
     {
       "id": 6,
-      "nome": "Fernanda Costa",
+      "nome": "Camila Duarte",
+      "cidade": "CURITIBA",
       "ativo": true,
-      "cidade": "Recife"
+      "cargo": "DevOps"
     },
     {
       "id": 7,
-      "nome": "Rafael Martins",
-      "ativo": false,
-      "cidade": "Fortaleza"
+      "nome": "Bruno Martins",
+      "cidade": "RJ",
+      "ativo": true,
+      "cargo": "Tech Lead"
     },
     {
       "id": 8,
-      "nome": "Juliana Rocha",
-      "ativo": true,
-      "cidade": "Salvador"
+      "nome": "Patrícia Rocha",
+      "cidade": "BH",
+      "ativo": false,
+      "cargo": "Analista de Dados"
     },
     {
       "id": 9,
-      "nome": "Lucas Almeida",
+      "nome": "Gustavo Neves",
+      "cidade": "SP",
       "ativo": true,
-      "cidade": "Brasília"
+      "cargo": "Estagiário"
     },
     {
       "id": 10,
-      "nome": "Camila Fernandes",
+      "nome": "Letícia Pires",
+      "cidade": "SP",
       "ativo": false,
-      "cidade": "Manaus"
+      "cargo": "Scrum Master"
     }
   ]
 }
