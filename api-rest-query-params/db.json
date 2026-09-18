@@ -1,0 +1,64 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Juan Pérez",
+      "ativo": true,
+      "cidade": "São Paulo"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Silva",
+      "ativo": false,
+      "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": 3,
+      "nome": "Carlos Souza",
+      "ativo": true,
+      "cidade": "Belo Horizonte"
+    },
+    {
+      "id": 4,
+      "nome": "Ana Oliveira",
+      "ativo": true,
+      "cidade": "Curitiba"
+    },
+    {
+      "id": 5,
+      "nome": "Pedro Lima",
+      "ativo": false,
+      "cidade": "Porto Alegre"
+    },
+    {
+      "id": 6,
+      "nome": "Fernanda Costa",
+      "ativo": true,
+      "cidade": "Recife"
+    },
+    {
+      "id": 7,
+      "nome": "Rafael Martins",
+      "ativo": false,
+      "cidade": "Fortaleza"
+    },
+    {
+      "id": 8,
+      "nome": "Juliana Rocha",
+      "ativo": true,
+      "cidade": "Salvador"
+    },
+    {
+      "id": 9,
+      "nome": "Lucas Almeida",
+      "ativo": true,
+      "cidade": "Brasília"
+    },
+    {
+      "id": 10,
+      "nome": "Camila Fernandes",
+      "ativo": false,
+      "cidade": "Manaus"
+    }
+  ]
+}
