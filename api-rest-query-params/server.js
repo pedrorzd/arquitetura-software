@@ -34,5 +34,5 @@ API.get('/usuarios', (req, res) => {
 
 //iniciando o servidor
 API.listen(PORT, ()=>{
-    console.log(`Servidor rodando na porta ${PORT} \nChama papai`)
+    console.log(`Servidor rodando na porta ${PORT} \nChama papai\nhttp://localhost:${PORT}/usuarios`);
 })
