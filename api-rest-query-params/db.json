@@ -1,0 +1,74 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Lucas Silva",
+      "cidade": "SP",
+      "ativo": true,
+      "cargo": "Dev Frontend"
+    },
+    {
+      "id": 2,
+      "nome": "Mariana Costa",
+      "cidade": "RJ",
+      "ativo": false,
+      "cargo": "Designer UI/UX"
+    },
+    {
+      "id": 3,
+      "nome": "Rodrigo Lima",
+      "cidade": "SP",
+      "ativo": true,
+      "cargo": "Dev Backend"
+    },
+    {
+      "id": 4,
+      "nome": "Aline Souza",
+      "cidade": "BH",
+      "ativo": true,
+      "cargo": "Product Manager"
+    },
+    {
+      "id": 5,
+      "nome": "Felipe Ramos",
+      "cidade": "SP",
+      "ativo": false,
+      "cargo": "QA Engineer"
+    },
+    {
+      "id": 6,
+      "nome": "Camila Duarte",
+      "cidade": "CURITIBA",
+      "ativo": true,
+      "cargo": "DevOps"
+    },
+    {
+      "id": 7,
+      "nome": "Bruno Martins",
+      "cidade": "RJ",
+      "ativo": true,
+      "cargo": "Tech Lead"
+    },
+    {
+      "id": 8,
+      "nome": "Patrícia Rocha",
+      "cidade": "BH",
+      "ativo": false,
+      "cargo": "Analista de Dados"
+    },
+    {
+      "id": 9,
+      "nome": "Gustavo Neves",
+      "cidade": "SP",
+      "ativo": true,
+      "cargo": "Estagiário"
+    },
+    {
+      "id": 10,
+      "nome": "Letícia Pires",
+      "cidade": "SP",
+      "ativo": false,
+      "cargo": "Scrum Master"
+    }
+  ]
+}

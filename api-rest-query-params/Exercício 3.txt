@@ -1,0 +1,174 @@
+Exercício 3:
+
+1.Filtrando Apenas por Status - A equipe de auditoria precisa consultar todos os usuários inativos do sistema, independente da cidade em que residem.
+http://localhost:3000/usuarios?ativos=false
+[
+  {
+    "id": 1,
+    "nome": "Lucas Silva",
+    "cidade": "SP",
+    "ativo": true,
+    "cargo": "Dev Frontend"
+  },
+  {
+    "id": 2,
+    "nome": "Mariana Costa",
+    "cidade": "RJ",
+    "ativo": false,
+    "cargo": "Designer UI/UX"
+  },
+  {
+    "id": 3,
+    "nome": "Rodrigo Lima",
+    "cidade": "SP",
+    "ativo": true,
+    "cargo": "Dev Backend"
+  },
+  {
+    "id": 4,
+    "nome": "Aline Souza",
+    "cidade": "BH",
+    "ativo": true,
+    "cargo": "Product Manager"
+  },
+  {
+    "id": 5,
+    "nome": "Felipe Ramos",
+    "cidade": "SP",
+    "ativo": false,
+    "cargo": "QA Engineer"
+  },
+  {
+    "id": 6,
+    "nome": "Camila Duarte",
+    "cidade": "CURITIBA",
+    "ativo": true,
+    "cargo": "DevOps"
+  },
+  {
+    "id": 7,
+    "nome": "Bruno Martins",
+    "cidade": "RJ",
+    "ativo": true,
+    "cargo": "Tech Lead"
+  },
+  {
+    "id": 8,
+    "nome": "Patrícia Rocha",
+    "cidade": "BH",
+    "ativo": false,
+    "cargo": "Analista de Dados"
+  },
+  {
+    "id": 9,
+    "nome": "Gustavo Neves",
+    "cidade": "SP",
+    "ativo": true,
+    "cargo": "Estagiário"
+  },
+  {
+    "id": 10,
+    "nome": "Letícia Pires",
+    "cidade": "SP",
+    "ativo": false,
+    "cargo": "Scrum Master"
+  }
+]
+
+
+2.O gestor de projetos precisa localizar os colaboradores que moram no Rio de Janeiro (RJ) e que estejam ativos para alocar em um novo projeto presencial.
+http://localhost:3000/usuarios?ativos=ativo&cidade=RJ
+[
+  {
+    "id": 2,
+    "nome": "Mariana Costa",
+    "cidade": "RJ",
+    "ativo": false,
+    "cargo": "Designer UI/UX"
+  },
+  {
+    "id": 7,
+    "nome": "Bruno Martins",
+    "cidade": "RJ",
+    "ativo": true,
+    "cargo": "Tech Lead"
+  }
+]
+
+3.O painel administrativo do sistema precisa exibir apenas os 2 primeiros usuários ativos da cidade de São Paulo
+http://localhost:3000/usuarios?cidade=SP&limite=2
+[
+  {
+    "id": 1,
+    "nome": "Lucas Silva",
+    "cidade": "SP",
+    "ativo": true,
+    "cargo": "Dev Frontend"
+  },
+  {
+    "id": 3,
+    "nome": "Rodrigo Lima",
+    "cidade": "SP",
+    "ativo": true,
+    "cargo": "Dev Backend"
+  }
+]
+
+4.Monte uma requisição de busca combinada com os seguintes critério - Usuários da cidade de Curitiba que estejam inativos (ativo: false).
+http://localhost:3000/usuarios?ativos=false&cidade=Curitiba
+[
+  {
+    "id": 6,
+    "nome": "Camila Duarte",
+    "cidade": "CURITIBA",
+    "ativo": true,
+    "cargo": "DevOps"
+  }
+]
+
+
+5.Monte uma requisição de busca combinada com os seguintes critérios: 
+Usuários com conta inativa (ativo: false);
+Localizados na cidade de São Paulo (SP);
+Limitando a listagem aos 2 primeiros registros.
+http://localhost:3000/usuarios?ativos=false&cidade=SP&limite=2
+[
+  {
+    "id": 1,
+    "nome": "Lucas Silva",
+    "cidade": "SP",
+    "ativo": true,
+    "cargo": "Dev Frontend"
+  },
+  {
+    "id": 3,
+    "nome": "Rodrigo Lima",
+    "cidade": "SP",
+    "ativo": true,
+    "cargo": "Dev Backend"
+  }
+]
+	
+
+6.Monte uma requisição de busca combinada com os seguintes critérios:
+Usuários cadastrados na cidade de Belo Horizonte (BH);
+Que estejam atualmente com a conta inativa (ativo: false);
+Sem restrição de limite
+http://localhost:3000/usuarios?ativos=false&cidade=BH
+
+[
+  {
+    "id": 4,
+    "nome": "Aline Souza",
+    "cidade": "BH",
+    "ativo": true,
+    "cargo": "Product Manager"
+  },
+  {
+    "id": 8,
+    "nome": "Patrícia Rocha",
+    "cidade": "BH",
+    "ativo": false,
+    "cargo": "Analista de Dados"
+  }
+]
